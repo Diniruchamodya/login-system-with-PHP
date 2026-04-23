@@ -35,16 +35,22 @@
             background-color: #111;
         } */
 
+            h1,p {
+                text-align: center;
+            }
 
     form {
   border-radius: 5px;
   padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
   
 }
 
 label {display: block;}
 
-input[type=text], #email ,select {
+input[type=text], #password ,#email,#confirm_password,select {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
